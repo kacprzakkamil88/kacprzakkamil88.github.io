@@ -1,0 +1,22 @@
+#p1 {background-color: deepskyblue}
+
+#p2 {
+    background-color: brown;
+}
+
+div#elementy-blokowe p {
+    display: inline;
+}
+
+div#elementy-inline-block > ul {
+    text-align: center;
+}
+
+div#elementy-inline-block > ul li {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+    margin-left: 10px;
+   
+}
