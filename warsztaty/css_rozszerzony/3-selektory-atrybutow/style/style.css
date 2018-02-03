@@ -1,0 +1,31 @@
+body {
+    background-color: bisque;
+}
+
+
+
+div.klient[suma] {
+    
+    background-color: aqua
+}
+
+div.klient[suma="1140"]{
+    background-color: blue
+}
+
+
+div.klient[detaliczny~="tak"]{
+    background-color: aquamarine
+}
+
+div.klient[detaliczny*="tak"] {
+    background-color: red;
+}
+
+div.klient[suma^="25"]{
+    background-color: hotpink;
+}
+
+div.klient[suma$="0"] {
+    background-color: lime;
+}
