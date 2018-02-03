@@ -1,0 +1,32 @@
+
+
+#link-1 {
+	color: green;
+}
+
+a:visited {
+    color: rebeccapurple;
+}
+
+a#link-4:hover{
+    background-color: aqua
+}
+
+/*
+div.tabela > .klient:first-child{
+    background-color: aquamarine
+}
+*/
+
+div.tabela > .klient:last-child {
+    background: blue;
+}
+
+div.tabela :nth-child(5) {
+    
+    background-color: brown;
+}
+
+div.tabela :nth-child(4n + 5) {
+    background-color:pink;
+}
