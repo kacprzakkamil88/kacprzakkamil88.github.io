@@ -1,0 +1,54 @@
+body {
+    background-color: #213b50;
+    color: aliceblue;
+    padding: 20px;
+}
+
+
+
+input {
+    background-color: #4e708c;
+    color: red;
+    border: none;
+}
+
+select {
+    background-color: #4e708c;
+    color: red;
+    boreder: none;
+}
+
+textarea {
+    background-color: #4e708c;
+    color: red;
+    border: none;
+    resize: both;
+    
+}
+
+input:active {
+    background-color: #4e708c;
+    border-color: #fffff;
+    color: #fffff;
+    border: none;
+}
+
+input:hover {
+    background-color: #2b4a64;
+    border: none;
+}
+
+input:focus {
+    background-color: #4e708c;
+    border: none;
+}
+
+input:last-child {
+    color: lime;
+    border: none;
+    float:center;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-style: oblique;
+    
+}
