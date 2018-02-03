@@ -1,0 +1,20 @@
+div > p#p1::before {
+    content:"przed elementem";
+    color: red;
+}
+
+div p#p2::after {
+    content: "za elementem";
+    color: blue;
+}
+
+div p#p3::first-letter {
+    color: aqua;
+    font-weight: bold;
+}
+
+div>p#p4::first-line {
+    background-color: yellow;
+    color: red;
+    
+}
