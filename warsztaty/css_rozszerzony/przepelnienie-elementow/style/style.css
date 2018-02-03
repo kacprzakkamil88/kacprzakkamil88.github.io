@@ -1,0 +1,10 @@
+
+
+#tlo-obrazek {
+	background-image: url("../img/obrazek.jpg");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: 50% 50%;
+    background-attachment: fixed;
+    
+}
