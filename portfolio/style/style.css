@@ -7,36 +7,75 @@ body {
   
 }
 
-#main-menu {
+nav#main-menu {
     
     position: fixed;
     text-align: right;
-    background-color: #fffff;
-    
+    background-color: #fff;
+
     width: 100%;
+     top: 0;
+    right: 0;
+   
+    
    
     
 }
 
-#main-menu .main-menu-item {
+nav#main-menu .main-menu-item {
     display: inline-block;
     list-style: none;
 }
 
+/* ROBIENIE GÓRNYCH ELEMENTÓW */
 
-#main-menu .main-menu-item > a {
+nav#main-menu .main-menu-item > a {
 	text-decoration: none;
-    color: #1ac056;
+   
     font-weight: 300;
-    padding: 25px;
-   margin: 10px;
-    margin-right: 20px;
+    padding: 20px 40px;
+    margin: 10px;
+    float: right;
+    margin: 0;
+    color: #1ac056;
+    
 }
 
-#main-menu .main-menu-item > a:hover{
-	color: aliceblue;
+
+
+nav#main-menu .main-menu-item > a:hover{
+	color: black;
  
 }
+
+/*----- TUTAJ JEST HEADER -----*/
+
+header#main-header {
+    
+	background-image: url(../img/header-background.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    
+}
+
+header#main-header .main-header-content {
+    padding: 30vh;
+    text-align: center;
+
+}
+
+header#main-header .main-heade-conten h1 {
+    font-size: 4em;
+    font-weight: 300;
+    font-family: "Roboto", sans-serif;
+}
+
+/*--- TUTAJ KONCZE HEADER -----*/
+
+
+
 
 
 	
