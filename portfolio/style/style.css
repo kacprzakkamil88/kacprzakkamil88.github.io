@@ -1,70 +1,99 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
-    background-color:#19820B;
+    background-color: #19820B;
     color: #291f1a;
     font-weight: 300;
     font-family: 'Lato', sans-serif;
-    
-  
+    margin: 0;
+    box-sizing: border-box;
+
+
 }
 
+span {
+    color: #1ac056;
+}
+.col-1-2{
+    width: 50%;
+    float: left;
+}
+
+
+section {
+    width: 100%;
+    padding: 0 80px 100px;
+}
+ 
+
 nav#main-menu {
-    
+
     position: fixed;
     text-align: right;
     background-color: #fff;
 
     width: 100%;
-     top: 0;
+    top: 0;
     right: 0;
-   
-    
-   
-    
+    margin: 0;
+
+
+
+
 }
 
 nav#main-menu .main-menu-item {
     display: inline-block;
     list-style: none;
+    margin:0;
 }
 
 /* ROBIENIE GÓRNYCH ELEMENTÓW */
 
 nav#main-menu .main-menu-item > a {
-	text-decoration: none;
-   
+    text-decoration: none;
+
     font-weight: 300;
     padding: 20px 40px;
     margin: 10px;
     float: right;
     margin: 0;
     color: #1ac056;
-    
+
 }
 
 
 
-nav#main-menu .main-menu-item > a:hover{
-	color: black;
- 
+nav#main-menu .main-menu-item > a:hover {
+    color: black;
+
 }
 
 /*----- TUTAJ JEST HEADER -----*/
 
+
 header#main-header {
-    
-	background-image: url(../img/header-background.jpg);
+    background-image: url(../img/header-background.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     color: #fff;
     
+   
+   
+
 }
 
 header#main-header .main-header-content {
     padding: 30vh;
     text-align: center;
+    
+    
 
 }
+
 
 header#main-header .main-heade-conten h1 {
     font-size: 4em;
@@ -72,10 +101,49 @@ header#main-header .main-heade-conten h1 {
     font-family: "Roboto", sans-serif;
 }
 
-/*--- TUTAJ KONCZE HEADER -----*/
+header#main-header .main-header-conten h2 {
+    font-size: 2em;
+    font-weight: 300;
+}
 
 
 
 
+section#about {
+    background-color: #f9fcec;
+    overflow: hidden;
+}
 
-	
+section#about >figure  {
+    text-align: center;
+    margin: 0;
+    margin-right: 30px;
+    float: left;
+}
+
+section#baout > #about-content {
+    width: 50%;
+    float: left;
+}
+
+section#about >figure >img {
+    border: 14px solid #fff;
+    border-radius: 15px;
+    max-width: 100%;
+    max-height: 350px;
+        
+}
+
+/* inline block lub float zrobi rządek*/
+
+section#skills {
+    text-align: center;
+}
+
+section#skills #skills-icons figure {
+    display: inline-block;
+}
+
+section#skills #skills-icons figure figcaption {
+    text-transform: uppercase;
+}
