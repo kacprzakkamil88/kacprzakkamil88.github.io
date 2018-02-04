@@ -2,8 +2,41 @@ body {
     background-color:#19820B;
     color: #291f1a;
     font-weight: 300;
-    font-family: "Lato", sans-serif;
+    font-family: 'Lato', sans-serif;
     
   
 }
 
+#main-menu {
+    
+    position: fixed;
+    text-align: right;
+    background-color: #fffff;
+    
+    width: 100%;
+   
+    
+}
+
+#main-menu .main-menu-item {
+    display: inline-block;
+    list-style: none;
+}
+
+
+#main-menu .main-menu-item > a {
+	text-decoration: none;
+    color: #1ac056;
+    font-weight: 300;
+    padding: 25px;
+   margin: 10px;
+    margin-right: 20px;
+}
+
+#main-menu .main-menu-item > a:hover{
+	color: aliceblue;
+ 
+}
+
+
+	
