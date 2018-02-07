@@ -1,0 +1,49 @@
+body {
+
+    background-color: beige;
+    font-family: Verdana;
+    border: none;
+    margin: 0;
+    color: white;
+
+
+
+}
+
+#napis {
+    font-weight: bold;
+    position: absolute;
+    text-align: left;
+    transform: translateY(200%);
+
+}
+
+#napis h1 {
+    font-size: 25px;
+}
+
+#napis h2 {
+    font-size: 35px;
+}
+
+
+
+
+figure {
+    margin: 0;
+
+}
+
+figure img {
+    width: 100%;
+    display: block;
+}
+
+@media and (min-width: 1170px){
+    figure img {
+        width: 100%;
+        display: block;
+    }
+}
+    
+

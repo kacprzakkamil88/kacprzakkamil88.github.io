@@ -1,0 +1,48 @@
+/*-------- MOJA PRACKA ------*/
+
+body {
+    background-color: beige;
+   
+    font-family: Verdana;
+    border: none;
+    margin: 0;
+}
+
+
+    
+
+
+
+footer  {
+    text-align: center;
+    width: auto;
+    font-size: 25px;
+    margin: 10px;
+    font-weight: bold;
+    
+    
+}
+
+footer span {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+figure {
+    margin: 0;
+   
+}
+
+@media (max-width: 922px) {
+    
+
+figure img {
+    
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    height: 50vh;
+  
+   
+}
+}
