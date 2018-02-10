@@ -1,0 +1,36 @@
+body {
+    
+    background-color: aquamarine;
+}
+
+figure {
+    margin: 40px auto;
+    width: 400px;
+    animation-name: zmien_szerokosc;
+    animation-duration: 3s;
+    animation-iteration-count: 2;
+}
+
+
+figure img {
+    width: 100%;
+    transition: all 1s;
+}
+
+@keyframes zmien_szerokosc {
+    0%{
+        width: 400px;
+    }
+    
+    40% {
+        width: 650px;
+    }
+    
+    60% {
+        width: 650px;
+    }
+    
+    100% {
+        width: 400px;
+    }
+}

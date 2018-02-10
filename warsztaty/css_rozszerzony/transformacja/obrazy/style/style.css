@@ -1,0 +1,19 @@
+body {
+    
+    background-color: bisque;
+}
+
+figure {
+    margin: 40px auto;
+    width: 400px;
+}
+
+figure img {
+    transform-origin: 15% 25%;
+    width: 100%;
+    transition: all 0.5s;
+}
+
+.rotate img:hover{
+	transform: rotate(360deg) scale(3);
+}
