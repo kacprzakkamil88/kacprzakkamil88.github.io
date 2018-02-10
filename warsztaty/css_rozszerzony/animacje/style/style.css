@@ -1,14 +1,13 @@
-body {
-    
-    background-color: aquamarine;
-}
 
-figure {
+body {
+    background-color: antiquewhite;
     margin: 40px auto;
     width: 400px;
-    animation-name: zmien_szerokosc;
-    animation-duration: 3s;
-    animation-iteration-count: 2;
+    animation-name: koloruj;
+    animation-duration: 8s;
+    animation-iteration-count: 5;
+    animation-delay: 3s;
+    animation-fill-mode: forwards;
 }
 
 
@@ -17,20 +16,20 @@ figure img {
     transition: all 1s;
 }
 
-@keyframes zmien_szerokosc {
+@keyframes koloruj {
     0%{
-        width: 400px;
+        background-color: red;
     }
     
     40% {
-        width: 650px;
+        background-color: blue;
     }
     
     60% {
-        width: 650px;
+        background-color: green;
     }
     
     100% {
-        width: 400px;
+       background-color: yellow;
     }
 }
