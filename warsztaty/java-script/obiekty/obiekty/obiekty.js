@@ -40,3 +40,14 @@ var osoba = {
 
 
 osoba.wyswietlSzczegoly("Bogumił"); 
+
+// dodanie właściwośc
+
+osoba.wiek = 36;
+// można też użyć console.log(osoba.wiek);
+osoba.wyswietlWiek = function() {
+    console.log(this.wiek);
+}
+
+osoba.wyswietlWiek(); // a to można spokojnie wyrzucić
+
