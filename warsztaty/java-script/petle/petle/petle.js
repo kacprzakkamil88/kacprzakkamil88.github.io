@@ -32,7 +32,7 @@ tablica.forEach ( function ( elementTablicy, indexTablicy ) {
     console.log ( "Index: " + indexTablicy + ", wartość: " + elementTablicy );
 });
 
-// funkcja continue
+// funkcja continue ------------------ kręci się aż się zrobi
 
 //for ( var i=0; i < tablica.length; i++){
   //  if( i == 2){
@@ -60,12 +60,32 @@ tablica.forEach ( function ( elementTablicy, indexTablicy ) {
 
 
 
-// pętla while --------------------------------------------------------------------------------------
+// pętla while ---------------------------------------------------------------------------------------------------------------------
 
 
-var iter = 0;
-while( iter < 20 ) {
-    console.log( iter );
+//var iter = 0;
+//while( iter < 20 ) {
+  //  console.log( iter );
+//    ++iter;
+//}
+// to poniżej nie spełnia warunku i dlatego nic nie wyświetla w konsoli
+//var iter = 10;
+//while( iter < 5 ) {
+//    console.log( iter );
+//    ++iter;
+//}
+
+
+// pętla do while - działa tak, że pętla zostanie wykonana chociaż raz mimo warunków --------------------------------------------------
+
+var iter = 20;
+do { console.log(iter);
+    
     ++iter;
-}
+   } while( iter < 10 );
+
+
+
+
+
 
