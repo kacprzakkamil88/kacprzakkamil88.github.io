@@ -49,12 +49,13 @@ console.log(imiona.length);
 //console.log(imionaReverse);
 
 // metoda sort to co robi????? A no sortuje tablice
-var posortowana = imiona.sort();
-console.log(posortowana);
+
+//var posortowana = imiona.sort();
+//console.log(posortowana);
 
 
 
-
+//
 
 
 
