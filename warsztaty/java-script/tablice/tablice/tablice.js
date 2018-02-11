@@ -45,6 +45,21 @@ console.log(imiona.length);
 
 //metoda reverse odwraca elementy tablicy
 
-var imionaReverse = imiona.reverse();
-console.log(imionaReverse);
+//var imionaReverse = imiona.reverse();
+//console.log(imionaReverse);
+
+// metoda sort to co robi????? A no sortuje tablice
+var posortowana = imiona.sort();
+console.log(posortowana);
+
+
+
+
+
+
+
+
+
+
+
 
