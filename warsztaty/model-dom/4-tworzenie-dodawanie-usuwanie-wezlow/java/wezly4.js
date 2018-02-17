@@ -33,3 +33,22 @@ istniejącyWezel.appendChild(newElement);
 
 var parFirstDiv = document.getElementById("parFirst");
 parFirstDiv.replaceChild(newElement, istniejącyWezel);
+
+
+
+
+
+//var allLinks = document.querySelectorAll("a"); // ----> daje linki z strony
+//console.log(allLinks); // jak zrobić tablice ---> Array.form("nodeList");
+
+// jak wsadzić after z użycueme "before" //
+
+var allLinks = document.getElementsByTagName ("a");
+for (var i = 0; i < allLinks.length; i++) {
+    var br = document.createElement("br");
+    
+    allLinks[i].parentNode.insertBefore(br, allLinks[i].nextSibling);
+
+
+allLinks[i].removeAttribute("class"); 
+}
