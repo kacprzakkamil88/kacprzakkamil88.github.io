@@ -1,6 +1,9 @@
 "use strict"
 
+// warsztat pierwszy ----------------------------------------------------------
 
+
+// sposób pierwszy podpinania
 
 
 function ustawTlo () {
@@ -12,6 +15,7 @@ function ustawTlo () {
     
 }
 
+// drugi sposób // 
 //var input = document.getElementById("input-id");
 //input.addEventListener("click, u")
 
