@@ -44,18 +44,34 @@ thirdLink.removeEventListener("click", alarm); // można też tak usuwać ---
 
 
 
+//
+//var mainHeader = document.getElementById("main-header");
+//
+//function resize(e) {
+//    if (e.type == "mouseover") {
+//        mainHeader.style.fontSize = "70px"; // zmienianie czcionki stylu 
+//    } else {
+//        mainHeader.style.fontSize = "inherit"; // przywraca domyślną
+//    }
+//}
+//
+//mainHeader.onmouseover = resize;
+//mainHeader.onmouseout = resize;
 
-var mainHeader = document.getElementById("main-header");
 
-function resize(e) {
-    if (e.type == "mouseover") {
-        mainHeader.style.fontSize = "70px"; // zmienianie czcionki stylu 
-    } else {
-        mainHeader.style.fontSize = "inherit"; // przywraca domyślną
-    }
+// zatrzymanie eventów //
+
+function klikHeader () {
+    console.log("kliknales w header");
 }
 
-mainHeader.onmouseover = resize;
-mainHeader.onmouseout = resize;
+document.getElementsByTagName("header") [0].onclick = klikHeader;
 
+function klikH1(e) {
+    e.stopPropagation (); // zatrzymanie zdarzenia 
+    console.log("kilknąłeś w h1");
+}
 
+document.getElementsByTagName("h1") [0].onclick = klikH1;
+
+// zdarzenie idą od doły --- poaczaj plik html a strona ---- 
