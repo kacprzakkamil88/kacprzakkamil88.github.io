@@ -44,6 +44,15 @@ $(".next-slide").click(function() {
 function slide(newSlideIndex) {
     if(newSlideIndex < 0 || newSlideIndex > slideCount -1) {
         return;
+        
+//        if(newSlideIndex < 0 ) {
+//            newSlideIndex = slideCount -1;
+//        }
+//        
+//        if(newSlideIndex > slideCount -1){
+//            newSlideIndex=0;
+//        }
+        
 }
 
 var slideCaption = $(".slide-caption").eq(newSlideIndex);                   // wartośc eq - 

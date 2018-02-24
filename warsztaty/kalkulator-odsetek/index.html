@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kalkulator Odsetek</title>
+</head>
+<body>
+    <form action="">
+        <label for="wplata">Wpłata</label><br>
+        <input type="number" id="wplata" value="0" min="100">
+    </form><br>
+    
+   <label for = "okres-kapitalizacji"> Okres
+        <form action="okres" for="okres-kapitalizacji"><br>
+        <select name = "okres">
+            <option value="12" selected>miesięczna</option>
+            <option value= "4">kwartalna</option>
+            <option value="1">roczna</option>
+        </select>
+    </form>
+   </label> <br><br>
+   
+   <label for="ilosc-lat">Ilosc lat<br>
+   <input type="number" value="1" min="1" id="ilosc-lat">
+   </label><br><br>
+   
+   <label for = "stopa-zwrotu"> stopy stopy <br>
+   <input type="number" value="10" min="0" id="oprocentowanie">
+   
+   </label><br><br>
+   
+   <label for= "uwzględnij-podatek-belki"> Belka Belka
+   <input type="checkbox" id="podatek"><br>
+   </label><br>
+   
+   <input type="button" onclick="policz(event)" id="policz" value=Oblicz>
+   
+   <p id="wynik"></p>
+   
+   
+   <script src="java/java.js"></script>
+</body>
+</html>
+<!---- można zrobić tutaj label for="coś tam" --- taka opcja również istnieje a może jest i lepsiejsza
