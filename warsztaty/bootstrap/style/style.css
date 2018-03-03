@@ -1,0 +1,27 @@
+nav {
+    background-color: greenyellow;
+}
+
+
+
+
+div.container-first {
+    background-color: red;
+    height: 500px;
+}
+
+
+
+div.container-second {
+    background-color: aqua;
+    height: 500px;
+}
+
+.item {
+/*    wcześniej by heigh 200px :*/
+    background-color: brown;
+}
+.item:nth-child(even) {
+    background-color: chartreuse;
+	
+}
