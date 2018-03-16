@@ -1,0 +1,120 @@
+body {
+    background-color: beige;
+    font-family: Verdana;
+    border: none;
+    margin: 0;
+    color: white;
+}
+
+
+
+#napis {
+    font-weight: bold;
+    position: absolute;
+    text-align: left;
+    transform: translateY(200%);
+
+}
+
+#napis h1 {
+    font-size: 25px;
+}
+
+#napis h2 {
+    font-size: 35px;
+}
+
+ #obrazek2 {
+    display: none;
+    }
+
+
+figure {
+    margin: 0;
+
+}
+
+figure img {
+    width: 100%;
+    display: block;
+}
+
+
+
+@media all and (max-width: 992px) {
+    
+    
+
+       #obrazek1 {
+        width: 100%;
+        height: 130vw;
+        display: block;
+        overflow: auto;
+
+    }
+    
+      #obrazek2{
+        display: none;
+    }
+   
+    #napis { 
+    color:black;
+    text-align: center;
+    position: absolute;
+    right: 80px;
+/*    top: 150px;*/
+        width: 75vw;
+        height: 50vh;
+    
+    margin: 10px;
+    font-weight: bold;
+    }
+    
+    #napis h1 {
+        font-size: 20px;
+    }
+    
+    #napis h2 {
+        font-size: 30px;
+	
+}
+   
+   
+}
+
+@media all and (min-width: 992px) and (max-width: 1170px) {
+    
+ #obrazek1 {
+	display: none;
+     
+        
+}
+   
+     #obrazek2 {
+         display:block;
+    text-align: center;
+    width: 100%;
+    height: 80vw;
+        
+
+    }
+    #napis { 
+    color:white;
+    
+    position: absolute;
+    right: 0px;
+    top: -230px;
+    text-align: justify;
+    
+    margin: 10px;
+    font-weight: bold;
+    }
+    
+    #napis h1 {
+        font-size: 20px;
+    }
+    
+    #napis h2 {
+        font-size: 30px;
+	
+}
