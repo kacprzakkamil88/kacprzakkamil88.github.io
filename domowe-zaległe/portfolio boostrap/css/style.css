@@ -1,0 +1,236 @@
+
+
+
+
+body {
+    font-family: "Lato", sans-serif;
+   
+    margin: 0px;
+    margin-right: -1px;
+    font-weight: 300;
+    background-color: #fff;
+    padding: 0;
+}
+
+
+
+span {
+     color: #1ac056;
+}
+
+.row {
+    margin: 10px;
+}
+
+/*
+section {
+    width: 100%;
+    padding: 0 80px 100px;
+}
+
+.col-1-2 {
+    width: 50%;
+    float: left;
+}
+*/
+
+/* GENERAL STYLES - END */
+
+/* NAVIGATION - START */
+
+#main-nav {
+	position: fixed;
+    background-color: white;
+}
+
+
+
+#main-nav .nav-item a {
+  color: #1ac056;
+    
+}
+
+#main-nav .nav-item a:hover {
+  color: black;
+    
+}
+
+/*HEADER ***************************************************/
+
+#main-header {
+  
+	
+    color: white;
+    background-image: url(../img/header-background.jpg);
+    text-align: center;
+    height: 75vh;
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+    
+}
+
+
+
+#main-header .header-caption h1 {
+	font-size: 1em;
+    
+}
+
+#main-header .header-caption h1 {
+	font-size: 5em;
+}
+
+
+/*SEKCJA*******************************************************************************/
+
+#gorna {
+    
+    font-family: "Lato", sans-serif;
+    font-size: 2em;
+    
+}
+
+#obrazek {
+    height: 75vh;
+    
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(../img/jan-nowak.jpg);
+    
+}
+
+#about {
+	background-color: aliceblue;
+}
+
+
+/*IKONY ***************************************************************************************/
+
+#gora {
+    font-family: "Lato", sans-serif;
+    font-size: 2em;
+    
+}
+
+
+
+
+/****************************PORTFOLIO*********************************************************/
+
+#portfolio #obrazy img{
+	width: 110%;
+    height: 100%;
+  
+ 
+     
+}
+
+.maska {
+  
+    text-align: center;
+    width: 101.5%;
+    height: 100%;
+    position: absolute;
+    color: white;
+    left: 4%;
+    top: 0%;
+    background-color: rgba(15, 216, 214, 0.5);
+ 
+    opacity: 0;
+    
+}
+
+.maska:hover {
+    opacity: 1;
+    transition: 0.5s;
+}
+
+
+
+
+/*
+
+#portfolio #obrazy img :hover {
+    background-color: rgba(42, 61, 79, 0.8);
+    
+	
+}
+*/
+
+/**************************KONTAKT*******************************************************/
+
+#main-section {
+    color: white;
+	background-color: rgba(42, 61, 79, 1);
+    padding: 10px 0;
+    margin: 0;
+}
+
+.section-ikony {
+  
+	display: inline-block;
+    font-size: 50px;
+    color: white;
+}
+
+
+
+.button {
+    
+    background-color: #1ac056;
+    padding:  white;
+    color: white
+}
+
+.form-control {
+    background-color: mediumaquamarine;
+    
+}
+
+#formularz {
+    margin: 20px;
+  
+}
+/*
+ .tekst {
+    
+    color:white;
+    background-color: lightblue;
+     
+      margin-left: 250px;
+      
+}
+
+.email {
+    color:white;
+    background-color: lightblue;
+    width: 50%;
+}
+
+.area {
+    color:white;
+    background-color: lightblue;
+    
+}
+*/
+
+
+
+
+
+/*
+#formularz .area {
+	height: 50%;
+    width: 75%;
+}
+*/
+
+
+/****************** FOOTER ***************************/
+
+#main-footer {
+	background-color: rgba(50, 61, 70, 1);
+    color: white;
+    height: 100%;
+}
